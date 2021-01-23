@@ -13,12 +13,12 @@ public class StaticPeram {
 	final static String domain = "dysmsapi.aliyuncs.com";// 短信API产品域名（接口地址固定，无需修改）
 	
 	// 替换成你的AK (产品密)
-	final static String accessKeyId = "LTAI4G1a2j7ATEst9TLbMXyu";// 你的accessKeyId,填你自己的 上文配置所得 自行配置
-	final static String accessKeySecret = "qw0KEM3dJBB7dGJNJkE58wAHEFMRr4";// 你的accessKeySecret,填你自己的 上文配置所得 自行配置
+	final static String accessKeyId = "";// 你的accessKeyId,填你自己的 上文配置所得 自行配置
+	final static String accessKeySecret = "";// 你的accessKeySecret,填你自己的 上文配置所得 自行配置
 	// 必填:短信签名-可在短信控制台中找到
-	final static String SignName = "HNU登陆系统"; // 阿里云配置你自己的短信签名填入
+	final static String SignName = ""; // 阿里云配置你自己的短信签名填入
 	// 必填:短信模板-可在短信控制台中找到
-	final static String TemplateCode = "SMS_209197271"; // 阿里云配置你自己的短信模板填入
+	final static String TemplateCode = ""; // 阿里云配置你自己的短信模板填入
 
 	// final static String accessKeyId = "LTAI8FhHDYUZuM4PNrsMRe4G";// 你的accessKeyId,填你自己的 上文配置所得 自行配置
 	// final static String accessKeySecret = "vU4m9ggRWn2UK37UXdE8h1UJbKvDE";// 你的accessKeySecret,填你自己的 上文配置所得 自行配置
