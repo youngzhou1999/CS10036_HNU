@@ -1,6 +1,6 @@
-# Some codes for CS10036 of Hunan University
+# Some Codes for CS10036 of Hunan University
 
-This is my code for CS10036. It just includes Lab2 and Lab4. Only for your reference
+This is my code for CS10036. It just includes Lab2 and Lab4. Only for your reference.
 
 ## Lab2
 
