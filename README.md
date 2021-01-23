@@ -16,9 +16,9 @@ Tomcat 9.0
 
 - using vue for front-end development.
 - using spring-boot for back-end development.
-- using axios to send get, post, update and delete request from front to back asynchronously.
-- using mybaits as connection pool for data sets. 
-- checking valid table element when filling tables in front-end. 
+- using axios to send get, post, update and delete requests from front to back asynchronously.
+- using mybaits as connection pool for databases. 
+- checking valid table elements when filling tables in front-end. 
 
 ## Lab4
 
@@ -28,12 +28,14 @@ Android Studio for font-end development.
 
 spring-boot + vscode for back-end development.
 
+Tomcat 9.0
+
 ### Features
 
-- using spring-boot frame for back-end programing
-- using mybaits as connection pool
+- using spring-boot frame for back-end programing.
+- using mybaits as connection pool.
 - using AsyncHttpClient to get requests and responses asynchronously.
--  using sharedpreference to store local data
+-  using sharedpreference to store local data.
 - provide message service of the third party.
 
 # 湖南大学CS10036—编程新技术实务
