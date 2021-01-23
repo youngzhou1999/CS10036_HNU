@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkingsystem">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ResetActivity"
+            android:label="重置密码" />
+        <activity
+            android:name=".ModifyActivity"
+            android:label="修改密码" />
+        <activity
+            android:name=".EditActivity"
+            android:label="编辑资料" />
+        <activity
+            android:name=".FirstActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="个人中心" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="用户注册" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="登录账号" />
+    </application>
+
+</manifest>
